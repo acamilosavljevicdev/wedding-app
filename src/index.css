@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Reset osnovnih stilova */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Postavi osnovni font i bolji rendering */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Ukloni default stilove za liste */
+ul, ol {
+  list-style: none;
+}
+
+/* Linkovi bez underline-a */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Slike da budu responsive */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Dugmad bez default browser stilova */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

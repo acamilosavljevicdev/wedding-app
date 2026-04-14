@@ -12,8 +12,8 @@ export default function Upload() {
   const [files, setFiles] = useState([]);
 
   return (
-    <div className="flex flex-col h-screen w-full justify-center items-center">
-      <div style={{ padding: '20px', height: '50%', width: '50%' }}>
+    <div className="flex flex-col h-full w-full justify-center items-center">
+      <div style={{ padding: '20px', height: '50%', width: '50%', opacity: 0.8 }}>
 
 
         <FilePond
